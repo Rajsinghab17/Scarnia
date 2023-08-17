@@ -1,0 +1,37 @@
+nav #menu-btn-nav {
+    display : none;
+    background: transparent;
+        font-size: 1.8rem;
+        color: var(--color-white);
+        cursor: pointer;
+
+}
+
+
+
+@media (max-width: 1080px) {
+    
+
+    nav #menu-btn-nav {
+        display: inline-block !important;
+        
+    }
+    #service{
+        position: fixed;
+        top: 0;
+        bottom:0;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        height: 100vh;
+        display: none;
+        z-index: 10;
+    }
+    #service.show{
+        display: block;
+    }
+    #content{
+        padding-top:75px !important;
+    }
+   
+}
